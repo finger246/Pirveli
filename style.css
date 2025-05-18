@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  color: #444;
+}
+.container {
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.header {
+  height: 90vh;
+  position: relative;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: auto;
+}
+nav {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 42px;
+  margin-right: 50px;
+  padding: 32px;
+}
+a:link {
+  text-decoration: none;
+}
+.header-container {
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 60px;
+}
+.header-container-inner {
+  width: 500px;
+}
+.header-first {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.header-p {
+}
