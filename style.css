@@ -76,15 +76,16 @@ body {
 }
 /* **********************************MEORE NAWILI********************************************** */
 .whitespace {
-  background-color: hsla(27.57, 44.58%, 83.73%, 0.4);
+  background-color: hsla(27.57, 44.58%, 83.73%, 0.5);
   padding: 2.5rem;
 }
 
 .second-part {
-  background-color: hsla(27.57, 44.58%, 83.73%, 0.4);
+  background-color: hsla(27.57, 44.58%, 83.73%, 0.5);
 }
 .container2 {
-  width: 110rem;
+  width: 100%;
+  max-width: 110rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -99,7 +100,7 @@ body {
   padding: 4rem 5rem;
   height: 100%;
 }
-.header-first {
+.header-second {
   color: #000;
   font-size: 3rem;
   line-height: 1.1;
@@ -131,27 +132,78 @@ body {
   background-color: hsla(14.17, 32.14%, 56.08%, 1);
 }
 /* ///////////////////////////////MESAME NAWILI//////////////////////////////////////////////// */
-.nichevo {
-  display: grid;
-  place-items: center;
-  margin-bottom: 12rem;
+.container3 {
+  background-color: hsla(27.57, 44.58%, 83.73%, 0.5);
+}
+.igLink {
+  text-decoration: none;
+  color: #000;
+}
+.n {
+  text-decoration: none;
+}
+.y {
+  text-decoration: underline;
 }
 .header3 {
-  font-size: 5rem;
+  font-family: "PT Sans";
+  padding-top: 20rem;
+  padding-bottom: 12rem;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .suratebi-box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  justify-items: center;
   gap: 2rem;
+  width: 100%;
+  max-width: 110rem;
+  margin: 0 auto;
 }
 .suratebi {
-  left: 0px;
-  top: -33.75px;
-  width: 270px;
-  height: 337.5px;
-  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  max-width: 250px;
+  overflow: hidden;
+  display: block;
+}
+.cropped-foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+/* ///////////////////////////////////////foooter//////////////////////////////////////////////////// */
+.whitespace2 {
+  background-color: hsla(27.57, 44.58%, 83.73%, 0.5);
+  padding-top: 15rem;
+}
+
+.container4 {
+  width: 100%;
+  background-color: hsla(27.1, 40.26%, 15.1%, 1);
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  padding: 6rem 2rem;
+}
+
+.footer-link {
+  font-size: 2rem;
+  text-decoration: none;
+  color: hsla(14.17, 32.14%, 56.08%, 1);
+}
+.footer-icon {
+  font-size: 2rem;
+  text-decoration: none;
+  color: hsla(14.17, 32.14%, 56.08%, 1);
 }
